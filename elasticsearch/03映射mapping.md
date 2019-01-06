@@ -70,7 +70,7 @@ PUT lagou/job/1
 ````
 
 #####创建映射2
-
+````
 PUT spiderdata
 {
 "mappings":{
@@ -102,7 +102,7 @@ PUT spiderdata
  }
 }
 }
-
+````
 
 #####创建映射2数据
 ````
