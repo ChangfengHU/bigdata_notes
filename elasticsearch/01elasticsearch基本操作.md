@@ -85,11 +85,11 @@ POST music/IT/1/_update
 ````
 ##### - 删除文章一条数据
 ````
- music/IT/1
+ delete music/IT/1
 ````
 
 ##### - 删除文章一张表
 ````
- music/IT
+ delete music/IT
 ````
 

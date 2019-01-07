@@ -28,3 +28,6 @@ kibana.bat
 - 下载 head  ：https://github.com/mobz/elasticsearch-head
 
 - es深入学习网站 https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html
+
+- 爬虫抢票深入学习网站
+https://github.com/Jack-Cherish/python-spider
