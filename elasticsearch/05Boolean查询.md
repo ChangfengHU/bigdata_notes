@@ -169,7 +169,7 @@ GET boss/testjob/_search
 ````
 
 ### - 嵌套查询
-
+````
 - select *from testjob where title =java or (salary=14 and title =django) AND (salary !=9)
 GET boss/testjob/_search
 {
@@ -193,5 +193,5 @@ GET boss/testjob/_search
       ]
     }
   }
-  
 }
+````
