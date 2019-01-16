@@ -1,8 +1,8 @@
 ## bool 查询
-- "filter":[] 
+- "filter":[] 获取符合条件的值
 - "must":[]  and
 - "should":[] or
-- "must_not":[] not
+- "must_not":[] not 去掉符合条件的值
 
 ### -批量插入数据
 
