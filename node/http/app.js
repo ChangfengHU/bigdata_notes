@@ -33,7 +33,7 @@ server.on("request", function(request, response){
     if(request.url == "/shuaige"){
         response.write("<h1>这里是帅哥页面</h1><div style='background-color: hotpink;'>home hello谈海银</div>")
     }else if(request.url == "/meinv"){
-        response.write("<h1>这里是美女页面</h1><div style='background-color: hotpink;'>home hello戴卫芳</div>")        
+        response.write("<h1>这里是美女页面1</h1><div style='background-color: hotpink;'>home hello戴卫芳</div>")
     }else if(request.url == "/yeshou"){
         response.write("<h1>这里是野兽页面</h1><div style='background-color: hotpink;'>home hello 朱小俊</div>")
     }else{
