@@ -116,3 +116,60 @@ POST spiderdata/IT/
 
 
 ````
+
+##### 创建索引jobbole映射
+````
+PUT jobbole
+{
+"mappings":{
+ "article":{
+  "properties":{
+  "suggest":{
+    "type":"completion",
+    "analyzer":"ik_max_word"
+  },
+  "title":{
+    "store":"true",
+    "type":"text",
+    "analyzer":"ik_max_word"
+  },
+  "url":{
+    "type":"keyword"
+  },
+  "url_object_id":{
+    "type":"keyword"
+  },
+  "front_iamge_url":{
+    "type":"keyword"
+  },
+  "front_iamge_path":{
+    "type":"keyword"
+  },
+  "praise_nums":{
+    "type":"integer"
+  },
+  "comment_nums":{
+    "type":"integer"
+  },
+  "fav_nums":{
+    "type":"integer"
+  },
+  "tags":{
+    "store":"true",
+    "type":"text",
+    "analyzer":"ik_max_word"
+  },
+  "content":{
+    "store":"true",
+    "type":"text",
+    "analyzer":"ik_max_word"
+  },
+  "create_date":{
+    "type":"date",
+    "format":"yyyy-MM-dd"
+  }
+  }
+ }
+}
+}
+````
