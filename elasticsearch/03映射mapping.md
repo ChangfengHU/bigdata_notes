@@ -117,7 +117,7 @@ POST spiderdata/IT/
 
 ````
 
-##### 创建索引jobbole映射
+##### 创建索引jobbole映射1
 ````
 PUT jobbole
 {
