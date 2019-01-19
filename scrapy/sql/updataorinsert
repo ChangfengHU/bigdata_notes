@@ -1,0 +1,23 @@
+INSERT INTO jobbole_article (
+	title,
+	url,
+	create_date,
+	fav_nums,
+	front_image_url,
+	front_image_path,
+	praise_nums,
+	comment_nums,
+	tags
+)
+VALUES
+	(
+		'盘点 Python 的目标受众',
+		'http://python.jobbole.com/89258/',
+		"2018-8-21",
+		0,
+		'http://jbcdn2.b0.upaiyun.com/2015/02/edecceebedd0d04aa17bccba430ddcaf.jpg',
+		'',
+		'1',
+		0,
+		'基础知识,目标受众'
+	) ON DUPLICATE KEY UPDATE fav_nums=fav_nums+1
