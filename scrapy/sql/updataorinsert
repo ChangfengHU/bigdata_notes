@@ -11,7 +11,7 @@ INSERT INTO jobbole_article (
 )
 VALUES
 	(
-		'盘点 Python 的目标受众',
+		'盘点 Python 的目标受众1',
 		'http://python.jobbole.com/89258/',
 		"2018-8-21",
 		0,
